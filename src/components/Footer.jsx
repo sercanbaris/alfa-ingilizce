@@ -10,7 +10,7 @@ function Footer() {
           <img className={styles.logo} src={logo} />
         </div>
         <div className={styles.sign}>
-          © 2024 All rights reserved by Alfa Almanca
+          © 2024 All rights reserved by İngilizce Konuşma Enstitüsü
         </div>
       </div>
     </div>
