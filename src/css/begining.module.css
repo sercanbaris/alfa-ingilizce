@@ -1,0 +1,74 @@
+.begining {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+}
+
+.logo {
+    display: flex;
+    height: 150px;
+    width: 150px;
+
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 150px);
+    justify-content: center;
+
+    align-items: center;
+}
+
+.hero_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.computer_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.computer_learning {
+    display: flex;
+    width: 60%;
+}
+
+.hero_title {
+    font-size: 5vw;
+    color: #424242;
+    font-weight: 700;
+    margin: 0;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.hero_content {
+    font-size: 1.3vw;
+    color: var(--kirmizi);
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+}

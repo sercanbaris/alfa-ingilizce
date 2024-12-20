@@ -1,0 +1,108 @@
+.programs {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.programPic {
+    align-self: center;
+    width: 400px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.programPic:hover {
+    scale: 1.05;
+}
+
+.title {
+    display: flex;
+    font-size: 5vh;
+    color: var(--kirmizi);
+    font-weight: 700;
+}
+
+.subtitle {
+    display: flex;
+    font-size: 3vh;
+    color: var(--mavi);
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.madde {
+    display: flex;
+    font-size: 2vh;
+    margin-top: 10px;
+}
+
+.madde_title {
+    display: flex;
+    font-size: 2vh;
+    font-weight: 700;
+    color: var(--mavi);
+}
+
+.madde_content {
+    display: flex;
+    font-size: 2vh;
+}
+
+@media (max-width: 768px) {
+    .programPic {
+        width: 300px;
+    }
+
+    .title {
+        font-size: 4vh;
+    }
+
+    .subtitle {
+        font-size: 2.5vh;
+    }
+
+    .madde {
+        font-size: 1.8vh;
+    }
+
+    .madde_title {
+        font-size: 1.8vh;
+    }
+
+    .madde_content {
+        font-size: 1.8vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .programPic {
+        width: 200px;
+    }
+
+    .title {
+        font-size: 3vh;
+    }
+
+    .subtitle {
+        font-size: 2vh;
+    }
+
+    .madde {
+        font-size: 1.5vh;
+    }
+
+    .madde_title {
+        font-size: 1.5vh;
+    }
+
+    .madde_content {
+        font-size: 1.5vh;
+    }
+}

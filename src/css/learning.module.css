@@ -1,0 +1,100 @@
+.learning_container {
+    background-color: black;
+}
+
+.learning {
+    background-color: black;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../img/learning_background.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.learning_title {
+    font-size: 5vw;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    align-items: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.learning_content {
+    font-size: 1.3vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.learning_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: var(--kirmizi);
+    color: var(--krem);
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+
+.learning_button:hover {
+    background-color: var(--mavi);
+    color: var(--krem);
+}
+
+.learning_button:active {
+    background-color: var(--kirmizi);
+    color: var(--krem);
+}
+
+.pre_title {
+    font-size: 4vw;
+    font-weight: 400;
+    color: var(--krem);
+}
+
+.whatsapp {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .learning_title {
+        font-size: 11vw;
+        width: 100%;
+
+    }
+
+    .pre_title {
+        font-size: 10vw;
+        font-weight: 400;
+        color: var(--krem);
+    }
+
+    .learning_content {
+        font-size: 2vh;
+        text-align: center;
+        width: 90%;
+    }
+
+
+}

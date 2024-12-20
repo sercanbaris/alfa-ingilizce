@@ -1,0 +1,86 @@
+.whyus {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    font-size: 5vh;
+    color: var(--kirmizi);
+    font-weight: 700;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.madde {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.madde_title {
+    display: flex;
+    font-size: 3vh;
+    font-weight: 700;
+    color: var(--mavi);
+
+}
+
+
+.madde_content {
+    display: flex;
+    font-size: 3vh;
+}
+
+.whypic {
+    width: 400px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.whypic:hover {
+    scale: 1.1;
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    .madde_title {
+        font-size: 1.7vh;
+    }
+
+    .madde_content {
+        font-size: 1.7vh;
+    }
+
+    .whypic {
+        width: 300px;
+    }
+
+    .madde {
+        flex-direction: column;
+    }
+
+}

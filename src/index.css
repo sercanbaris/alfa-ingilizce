@@ -1,0 +1,15 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --kirmizi: #c80e2d;
+  --mavi: #062568;
+  --krem: #f3e7ed;
+  --yesilsu: aquamarine;
+  --mevisu: aqua;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
