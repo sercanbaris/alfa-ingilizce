@@ -1,8 +1,6 @@
-import React from "react";
 import styles from "../css/begining.module.css";
 import logo from "../img/logo.png";
 import onlineEducation from "../img/harikulade.png";
-import computer_learning from "../img/computer_learning.png";
 
 function Begining() {
   return (

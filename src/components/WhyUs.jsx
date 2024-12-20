@@ -7,6 +7,7 @@ function WhyUs() {
         <div className={styles.title}>
           Neden Bizimle İngilizce Öğrenmelisiniz?
         </div>
+
         <img className={styles.whypic} src={whypic} alt="" />
         <div className={styles.content}>
           <div className={styles.madde}>

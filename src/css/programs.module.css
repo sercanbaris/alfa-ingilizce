@@ -3,12 +3,17 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
 }
 
 .container {
     display: flex;
+
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .programPic {
@@ -70,39 +75,23 @@
 
     .madde {
         font-size: 1.8vh;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
     }
 
     .madde_title {
         font-size: 1.8vh;
+
     }
 
     .madde_content {
         font-size: 1.8vh;
-    }
-}
 
-@media (max-width: 480px) {
-    .programPic {
-        width: 200px;
     }
 
-    .title {
-        font-size: 3vh;
-    }
+    .container {
 
-    .subtitle {
-        font-size: 2vh;
-    }
-
-    .madde {
-        font-size: 1.5vh;
-    }
-
-    .madde_title {
-        font-size: 1.5vh;
-    }
-
-    .madde_content {
-        font-size: 1.5vh;
+        width: 90%;
     }
 }

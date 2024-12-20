@@ -1,4 +1,40 @@
 .faqs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
     background-color: brown;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../img/faq.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.faqs_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.title {
+    color: whitesmoke;
+}
+
+.subtitle {
+    color: whitesmoke;
+}
+
+.text {
+    background-color: whitesmoke !important;
+}
+
+
+
+@media (max-width: 768px) {
+    .faqs_container {
+
+        width: 90%;
+    }
 }
