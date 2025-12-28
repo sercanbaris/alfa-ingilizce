@@ -11,9 +11,9 @@ function Begining() {
 
       {/* Background Decor */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
-        <div className="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] bg-blue-400/20 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen dark:bg-blue-900/20" />
-        <div className="absolute top-[20%] -right-[10%] w-[40%] h-[40%] bg-purple-400/20 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen dark:bg-purple-900/20" />
-        <div className="absolute -bottom-[10%] left-[20%] w-[60%] h-[40%] bg-teal-400/20 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen dark:bg-teal-900/20" />
+        <div className="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] bg-blue-400/20 rounded-full blur-3xl md:blur-[120px] mix-blend-normal md:mix-blend-multiply dark:mix-blend-screen dark:bg-blue-900/20" />
+        <div className="absolute top-[20%] -right-[10%] w-[40%] h-[40%] bg-purple-400/20 rounded-full blur-3xl md:blur-[120px] mix-blend-normal md:mix-blend-multiply dark:mix-blend-screen dark:bg-purple-900/20" />
+        <div className="absolute -bottom-[10%] left-[20%] w-[60%] h-[40%] bg-teal-400/20 rounded-full blur-3xl md:blur-[120px] mix-blend-normal md:mix-blend-multiply dark:mix-blend-screen dark:bg-teal-900/20" />
       </div>
 
       {/* Navbar */}
@@ -61,7 +61,7 @@ function Begining() {
         <div className="flex-1 w-full flex justify-center lg:justify-end relative">
           <div className="relative w-full max-w-lg aspect-square lg:w-[600px] lg:h-[600px]">
             {/* Blob behind image */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-blue-100 to-purple-100 dark:from-blue-900/40 dark:to-purple-900/40 rounded-full blur-3xl -z-10 opacity-70" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-blue-100 to-purple-100 dark:from-blue-900/40 dark:to-purple-900/40 rounded-full blur-2xl md:blur-3xl -z-10 opacity-70" />
 
             <Image
               src={onlineEducation}
@@ -69,6 +69,7 @@ function Begining() {
               fill
               className="object-contain drop-shadow-2xl animate-in zoom-in-95 duration-1000"
               priority
+              sizes="(max-width: 768px) 100vw, 600px"
             />
           </div>
         </div>

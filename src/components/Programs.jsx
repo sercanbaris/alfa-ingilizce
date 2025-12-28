@@ -44,8 +44,9 @@ function Programs() {
     <section className="w-full py-24 px-6 relative overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-purple-50">
 
       {/* Abstract Background Shapes */}
-      <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-purple-200/50 rounded-full blur-3xl -z-10" />
-      <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-96 h-96 bg-blue-200/50 rounded-full blur-3xl -z-10" />
+      {/* Abstract Background Shapes */}
+      <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-purple-200/50 rounded-full blur-2xl md:blur-3xl -z-10" />
+      <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-96 h-96 bg-blue-200/50 rounded-full blur-2xl md:blur-3xl -z-10" />
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -85,9 +86,8 @@ function Programs() {
           </div>
         </div>
 
-        {/* Image */}
         <div className="order-1 lg:order-2 flex justify-center relative">
-          <div className="bg-white/50 absolute inset-0 rounded-full blur-3xl scale-90 -z-10" />
+          <div className="bg-white/50 absolute inset-0 rounded-full blur-2xl md:blur-3xl scale-90 -z-10" />
           <div className="relative w-full max-w-lg aspect-square animate-in slide-in-from-right-10 duration-1000 fade-in">
             <Image
               src={programPic}
